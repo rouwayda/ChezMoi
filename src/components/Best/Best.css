@@ -1,0 +1,67 @@
+.Container {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    background-color: #f3f3f3;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+
+.Arrowleft{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff7f7;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.Arrowright{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff7f7;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;    
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.wrapper{
+    height: 100%;
+}
+
+.Slide{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imgCon{
+    flex: 1;
+    height: 100%;
+}
+
+.imgInfo{
+    flex: 1;
+    padding: 50px;
+}
+
+.image{
+    height: 80%;
+}
